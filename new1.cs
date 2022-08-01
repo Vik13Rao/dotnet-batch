@@ -1,6 +1,7 @@
 using System;
+namespace abc {
 class new1
-{ static public void main()
+{ static void Main()
   {
    byte[] B ={2,4,6,8,10};
    Console.WriteLine("BArray is :{0}",BitConverter.ToString(B));
@@ -11,5 +12,5 @@ class new1
   }
 
 
-    
+}   
 }
