@@ -1,0 +1,22 @@
+1. Which of the following manages the execution of .Net program?
+Ans a. Common Language Runtime
+CLR is basically the native code that executes the .net program. It has direct access to OS.
+
+
+2.Which of the following has values that do not change throughout the application?
+Ans b Constants
+Constants once defined cannot be changed or modified that is why they are called constants
+
+3.Which of the following conversions is possible in type conversion?
+Ans a. Smaller data type to bigger data type
+Small data type takes lesser memory, so we can convert to bigger data. But we cannot fit bigger data type into 
+smaller data space
+
+4.Which of the following classes give the interval between two time periods?
+Ans d.TimeSpan
+Timespan is used to find difference between two time periods.
+
+
+5.Which of the following operations is performed by the String object?
+Ans d. Creating Strings
+we can only create String, but not modify them
