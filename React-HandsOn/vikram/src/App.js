@@ -6,11 +6,13 @@ import { ReactDOM } from 'react-dom/client';
 
 
 
+
 function App(){
-  return <div>
+  
+  return <><div>
     <AppChild name="Matt" />
-    <App2 name = "Successful"/>
-    </div>
+    <App2 name="Successful" />
+  </div></>
 }
 function AppChild(props){
   return <span>
