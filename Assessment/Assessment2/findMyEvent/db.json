@@ -1,0 +1,7 @@
+{
+    "events": [
+      { "id": 1, "title": "Mock TEXT", "region": "Asia", "date": "01/01/2021" },
+      { "id": 2, "title": "WP Camp", "region": "Germany", "date": "03/06/2021" },
+      { "id": 3, "title": "Fifa world cup", "region": "India", "date": "03/06/2021" }
+    ]
+}
