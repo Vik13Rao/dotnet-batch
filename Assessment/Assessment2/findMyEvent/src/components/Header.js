@@ -8,7 +8,7 @@ const Header = props => {
     const { branding } = props;
 
     return (
-        <Navbar bg="primary" variant="dark" className="mb-3">
+        <Navbar bg="secondary" variant="dark" className="mb-3">
             <Link to="/" className="navbar-brand">{branding}</Link>
             <Nav className="mr-auto"></Nav>
             <Nav>
