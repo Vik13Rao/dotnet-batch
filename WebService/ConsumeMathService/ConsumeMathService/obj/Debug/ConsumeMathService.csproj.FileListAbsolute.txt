@@ -1,0 +1,8 @@
+D:\WebServices\ConsumeMathService\ConsumeMathService\bin\Debug\ConsumeMathService.exe.config
+D:\WebServices\ConsumeMathService\ConsumeMathService\bin\Debug\ConsumeMathService.exe
+D:\WebServices\ConsumeMathService\ConsumeMathService\bin\Debug\ConsumeMathService.pdb
+D:\WebServices\ConsumeMathService\ConsumeMathService\obj\Debug\ConsumeMathService.csproj.AssemblyReference.cache
+D:\WebServices\ConsumeMathService\ConsumeMathService\obj\Debug\ConsumeMathService.csproj.SuggestedBindingRedirects.cache
+D:\WebServices\ConsumeMathService\ConsumeMathService\obj\Debug\ConsumeMathService.csproj.CoreCompileInputs.cache
+D:\WebServices\ConsumeMathService\ConsumeMathService\obj\Debug\ConsumeMathService.exe
+D:\WebServices\ConsumeMathService\ConsumeMathService\obj\Debug\ConsumeMathService.pdb
