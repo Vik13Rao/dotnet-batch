@@ -7,7 +7,7 @@ namespace DigitalRetailer.Models
         //[Key]
         public int Id { get; set; }
 
-        //[Required(ErrorMessage = "Please select a book")]
+        //[Required(ErrorMessage = "Please select a laptop")]
         public int LaptopId { get; set; }
 
 
