@@ -1,0 +1,26 @@
+﻿@model HomeIndexViewModel
+@{
+    ViewData["Title"] = "Index";
+    
+}
+
+@Html.Partial("_Effect", Model.Effects)
+
+<h2 class="text text-center"> Laptop List</h2>
+<div class="container marketing">
+	<div class="row">
+		@foreach (var item in Model.Laptops)
+		{
+			<div class="col-lg-4">
+				<img class="img img-rounded" src="~/Images/@item.ImageUrl" alt="@item.Name" width="140">
+				<h5>@item.Name</h5>
+				<p><a class="btn btn-secondary" href="/home/details/@item.Id" role="button">View details »</a></p>
+			</div>
+
+			<!-- /.col-lg-4 -->
+		}
+	</div>
+</div>
+
+
+
