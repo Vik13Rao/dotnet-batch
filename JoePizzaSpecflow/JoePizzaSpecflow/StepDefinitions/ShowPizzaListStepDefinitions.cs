@@ -22,13 +22,13 @@ namespace JoePizzaSpecflow.StepDefinitions
         {
 
             chromeDriver.Navigate().GoToUrl("https://vikrampizzeria.azurewebsites.net/");
-            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(1500));
+            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(95000));
         }
 
         [When(@"I click on Get Pizza button")]
         public void WhenIClickOnGetPizzaButton()
         {
-            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(1500));
+            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(95000));
             var Get_Pizza_Button = chromeDriver.FindElement(By.XPath("/html/body/div/main/div/a"));
             chromeDriver.ExecuteScript("arguments[0].click();", Get_Pizza_Button);
 
@@ -37,7 +37,7 @@ namespace JoePizzaSpecflow.StepDefinitions
         [Then(@"List of pizza page shows up")]
         public void ThenListOfPizzaPageShowsUp()
         {
-            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(3500));
+            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(95000));
         }
     }
 }

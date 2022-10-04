@@ -21,13 +21,13 @@ namespace JoePizzaSpecflow.StepDefinitions
         public void GivenNavigateToPizzaWebsite()
         {
             chromeDriver.Navigate().GoToUrl("https://vikrampizzeria.azurewebsites.net/");
-            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(9500));
+            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(95000));
         }
 
         [When(@"I click Get Pizza")]
         public void WhenIClickGetPizza()
         {
-            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(9500));
+            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(95000));
             var Get_Pizza_Button = chromeDriver.FindElement(By.XPath("/html/body/div/main/div/a"));
             chromeDriver.ExecuteScript("arguments[0].click();", Get_Pizza_Button);
         }
@@ -35,13 +35,13 @@ namespace JoePizzaSpecflow.StepDefinitions
         [Then(@"Pizza list shows up")]
         public void ThenPizzaListShowsUp()
         {
-            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(9500));
+            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(95000));
         }
 
         [When(@"I click Buy Now")]
         public void WhenIClickBuyNow()
         {
-            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(15000));
+            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(95000));
             var Buy_Now_Button = chromeDriver.FindElement(By.XPath("/html/body/div/main/div/div[2]/div/div[2]/a"));
             chromeDriver.ExecuteScript("arguments[0].click();", Buy_Now_Button);
         }
@@ -49,7 +49,7 @@ namespace JoePizzaSpecflow.StepDefinitions
         [Then(@"Order checkout page opens")]
         public void ThenOrderCheckoutPageOpens()
         {
-            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(9500));
+            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(95000));
             
 
         }
@@ -57,7 +57,7 @@ namespace JoePizzaSpecflow.StepDefinitions
         [When(@"click Confirm Order")]
         public void WhenClickConfirmOrder()
         {
-            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(9500));
+            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(95000));
             var ConfirmOrder_Button = chromeDriver.FindElement(By.XPath("/html/body/div/main/div/div/a"));
             chromeDriver.ExecuteScript("arguments[0].click();", ConfirmOrder_Button);
         }
@@ -65,7 +65,7 @@ namespace JoePizzaSpecflow.StepDefinitions
         [Then(@"Confirmation page show up")]
         public void ThenConfirmationPageShowUp()
         {
-            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(9500));
+            WebDriverWait wait = new WebDriverWait(chromeDriver, TimeSpan.FromMilliseconds(95000));
         }
     }
 }
